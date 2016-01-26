@@ -1,0 +1,120 @@
+
+    
+    h1.titular{
+      border: 2px solid #273442;
+      padding: 10px;
+      background-color: #587594;  
+      margin: 20px auto;
+      color: black;
+      text-align: center;
+      width: 200px;
+      height: 60px;
+      border-radius: 10px 10px 10px 10px;
+      box-shadow: 5px 5px 10px #111245;
+    }
+    body{
+      background-color: #FFF2D2;
+      color: black;
+      font-family: "Trebuchet MS",Arial,"Times New Roman";
+      font-size: 1.5em;
+    }
+    table{
+      border: 6px solid #273442;
+      border-radius: 300px 300px 300px 300px;
+      -moz-border-radius: 300px 300px 300px 300px;
+      -webkit-border-radius: 300px 300px 300px 300px;
+
+      border-spacing: 20px;
+      box-shadow: 10px 10px 30px #111245;
+      margin: 60px auto;
+      padding: 15px;
+      width: 500px;
+      height: 300px;
+      background-color: #2F3E4F;
+      text-align: center;
+      position: relative;
+    }
+    td{
+      color: white;
+      border: 2px solid black;
+      width: 50px;
+      height: 60px;
+      padding: 60px;
+      border-radius: 10px 10px 10px 10px;
+      box-shadow: 5px 5px 15px #111245;
+    
+    }
+    #fondo{
+      background-color: #FFF2D2;
+      background-size: 100%;
+      background-repeat:repeat;
+    }
+    #verde{
+      background-color: #4F8C27;
+      border: 5px solid #233D11;
+      color: black;
+      border-radius: 200px 10px 10px 10px;
+      border-color: #1D330E #62AD30 #62AD30 #1D330E;
+      background: -webkit-linear-gradient(#62AD30, #4F8C27); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#62AD30, #4F8C27); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#62AD30, #4F8C27); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#62AD30, #4F8C27); /* Standard syntax (must be last) */
+    }
+    #verde:hover { 
+        background: #62F92C;
+        color: white;
+    }
+    #rojo{
+      border: 5px solid #470A10;
+      background-color: #CC503C;
+      color: black;
+      border-radius: 10px 200px 10px 10px;
+      border-color: #470A10 #470A10 #F05E46 #F05E46;
+      background: -webkit-linear-gradient(#F05E46, #CC503C); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#F05E46, #CC503C); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#F05E46, #CC503C); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#F05E46, #CC503C); /* Standard syntax (must be last) */
+    }
+    #rojo:hover { 
+        background: #CC243C;
+    }
+    #amarillo{
+      background-color: #FAF933;
+      border: 5px solid #FAC633;
+      color: black;
+      border-radius: 10px 10px 10px 200px;
+      border-color: #FAF963 #FAF963 #FAC633 #FAC633;
+      background: -webkit-linear-gradient(#FAC633, #FAF933); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#FAC633, #FAF933); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#FAC633, #FAF933); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#FAC633, #FAF933); /* Standard syntax (must be last) */
+    }
+    #amarillo:hover{
+      background: #FAF900;
+      
+    }
+    #azul{
+      background-color: #1F69A7;
+      border: 5px solid #0C2840;
+      color: black;
+      border-radius: 10px 10px 200px 10px;
+      border-color: #2F9EFC #0C2840 #0C2840 #2F9EFC;
+      background: -webkit-linear-gradient(#2F9EFC, #1F69A7); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#2F9EFC, #1F69A7); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#2F9EFC, #1F69A7); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#2F9EFC, #1F69A7); /* Standard syntax (must be last) */
+    }
+    #azul:hover{
+      background: #2D9AF5;
+    }
+    #circulo{
+        position: absolute;
+        top: 100px;
+        left: 180px;
+        background-color: #2F3E4F;
+        z-index: 1;
+        border-radius: 300px;
+        width: 80px;
+        height: 80px;
+    }
+    
