@@ -1,21 +1,32 @@
+<div id="circulo"><h2>SIMON</h2></div>
+	
+<table>
+	
+	<tr>
+		<td id="verde" ng-click="play('verde')"></td>
+		<td id="rojo" ng-click="play('rojo')"></td>
+	</tr>
+	<tr>
+		<td id="amarillo" ng-click="play('amarillo')"></td>
+		<td id="azul" ng-click="play('azul')"></td>
+	</tr>
+	
+</table>
 
-<div id="fondo">
-<div id="simon">
-	<h1 class="titular">{{titulo}}</h1>
-	<table>
-		<tr>
-		<td id="verde" ng-click="play('verde')">verd</td>
-		<td id="rojo" ng-click="play('rojo')">roig</td>
-		</tr>
-		<tr>
-		   <td id="circulo">{{colores}}<h1 id="titulo" class="centro"></h1></td>
-		</tr>
-		<tr>
-		<td id="amarillo" ng-click="play('amarillo')">groc</td>
-		<td id="azul" ng-click="play('azul')">blau</td>
-		</tr>
-	</table>
-	<button type="button" ng-click="borra()" class="btn btn-success">Borrar</button>
-</div>	
+<audio id="audio" src="https://googledrive.com/host/0B6mm5NspeMk-b0Jhc210ZVJDcjg"></audio>
+
+<div class="aligncenter">
+<h1 id="colorelegido"> </h1>
+
+<!-- <h1 class="aligncenter">{{titulo}} {{colores}}</h1> -->
+
+<ul class="list-group">
+  <li class="list-group-item">Verde: {{acumuladorverde}}</li>
+  <li class="list-group-item">Rojo: {{acumuladorrojo}}</li>
+  <li class="list-group-item">Azul: {{acumuladorazul}}</li>
+  <li class="list-group-item">Amarillo: {{acumuladoramarillo}}</li>
+</ul>
+
+<button type="button" class="btn btn-primary aligncenter" ng-click="reset()">Reset</button>
 
 </div>
